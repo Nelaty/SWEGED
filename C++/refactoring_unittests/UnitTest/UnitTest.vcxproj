@@ -116,9 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="catch.hpp" />
+    <ClInclude Include="ExpensiveCalculation.h" />
     <ClInclude Include="MovementSpeed.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ExpensiveCalculation.cpp" />
+    <ClCompile Include="ExpensiveCalculationTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MovementSpeed.cpp" />
     <ClCompile Include="MovementSpeedTest.cpp" />

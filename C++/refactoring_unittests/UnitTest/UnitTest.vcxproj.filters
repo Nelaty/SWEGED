@@ -21,6 +21,9 @@
     <ClInclude Include="catch.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="ExpensiveCalculation.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MovementSpeedTest.cpp">
@@ -30,6 +33,12 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveCalculationTest.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpensiveCalculation.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
