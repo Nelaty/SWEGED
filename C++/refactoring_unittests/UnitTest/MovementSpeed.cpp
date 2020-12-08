@@ -1,6 +1,6 @@
 #include "MovementSpeed.h"
 
-InvalidInputException::InvalidInputException() : std::exception("INVALID")
+InvalidInputException::InvalidInputException() 
 {
 
 }
