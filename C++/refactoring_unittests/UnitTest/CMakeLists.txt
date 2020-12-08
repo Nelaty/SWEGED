@@ -9,7 +9,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
-set(sources "catch.hpp" "main.cpp" "MovementSpeed.cpp" "MovementSpeed.h" )
+set(sources "catch.hpp" "main.cpp" "MovementSpeed.cpp" "MovementSpeed.h" "MovementSpeedTest.cpp")
 
 add_executable(${PROJECT_NAME} ${sources})
 
