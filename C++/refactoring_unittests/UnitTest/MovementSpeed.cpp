@@ -1,8 +1,13 @@
 #include "MovementSpeed.h"
 
 InvalidInputException::InvalidInputException() 
+	: m_message("INVALID")
 {
+}
 
+const char* InvalidInputException::what() const
+{
+	return m_message.c_str();
 }
 
 float calcMovementSpeedFactor(int groundStickyness)
