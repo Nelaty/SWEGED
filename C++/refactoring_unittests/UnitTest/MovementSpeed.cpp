@@ -5,7 +5,7 @@ InvalidInputException::InvalidInputException()
 {
 }
 
-const char* InvalidInputException::what() const
+const char* InvalidInputException::what() const noexcept
 {
 	return m_message.c_str();
 }

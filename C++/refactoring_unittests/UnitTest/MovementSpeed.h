@@ -8,7 +8,7 @@ public:
 	explicit InvalidInputException();
 	virtual ~InvalidInputException() = default;
 
-	const char* what() const override;
+	const char* what() const noexcept override;
 
 private:
 	std::string m_message;
